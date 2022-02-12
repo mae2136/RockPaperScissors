@@ -73,7 +73,7 @@ var game = function() {
 
     // if (userChoice === choices[index] && (compChoice === choices[index - 1] || compChoice === choices[index+2]))
 
-    alert(`You have won ${userWin} times. The computer has won ${compWin} times. You have tied ${tie} times`);
+    alert(`You have won ${userWin} times.\n The computer has won ${compWin} times.\n You have tied ${tie} times`);
     
     // Computer confirms whether to play again or not
     playAgain = confirm("Do you want to play Again");
